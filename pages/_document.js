@@ -15,7 +15,7 @@ export default function Document() {
   return (
     <Html>
       <HeadDefault/>
-      <body>
+      <body class="gradient leading-relaxed tracking-wide flex flex-col">
       <Main/>
       <NextScript/>
 
