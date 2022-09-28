@@ -7,7 +7,7 @@ import CreateGame from '../lib/shuffle';
 export default function Game() {
   const [numbers, setNumbers] = useState([]);
   const router = useRouter();
-  const game = new GetGame(router.query.game);
+  const game = new GetGame("megasena");
 
   useEffect(() => {
     if (game.numbers)
